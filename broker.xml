@@ -1,1 +1,22 @@
 
+<addresses>
+
+    <address name="rro_web_pedidos">
+        <anycast>
+            <queue name="rro_web_pedidos"/>
+        </anycast>
+    </address>
+
+    <address name="rro_mkp_pedidos">
+        <anycast>
+            <queue name="rro_mkp_pedidos"/>
+        </anycast>
+    </address>
+
+    <address name="rro_pedidos">
+        <anycast>
+            <queue name="rro_pedidos"/>
+        </anycast>
+    </address>
+
+</addresses>
